@@ -41,7 +41,7 @@ body {
 }
 
 .background {
-  background-image: url("./Image/Espacio-cafe.jpg");
+  background-image: url("../Image/Espacio-cafe.jpg");
     background-size: 100%;
     background-repeat:round;
 }
@@ -104,7 +104,7 @@ a {
 }
 
 .background.cafe {
-  background-image: url(./Image/Espacio-cafe.jpg);
+  background-image: url(../Image/Espacio-cafe.jpg);
     background-size: 100%;
 }
 
