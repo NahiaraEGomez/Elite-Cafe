@@ -1,0 +1,19 @@
+.hero {
+  padding: 40px 0;
+
+  @include respond(md) {
+    padding: 72px 0;
+  }
+}
+
+.hero__image {
+  border-radius: $radius;
+  box-shadow: $shadow;
+}
+
+.page-bg {
+  background-image: url("../Image/Espacio-cafe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

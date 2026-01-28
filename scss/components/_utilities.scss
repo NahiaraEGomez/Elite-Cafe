@@ -1,0 +1,4 @@
+@each $s in $spaces {
+  .u-mb-#{$s} { margin-bottom: #{$s}px; }
+  .u-mt-#{$s} { margin-top: #{$s}px; }
+}

@@ -1,0 +1,19 @@
+@use "sass:map";
+
+// Media queries helper
+@mixin respond($bp) {
+  @media (min-width: map.get($breakpoints, $bp)) {
+    @content;
+  }
+}
+
+// Button base styles
+@mixin button($bg, $fg: #fff) {
+  background-color: $bg;
+  color: $fg;
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-weight: 600;
+  letter-spacing: .2px;
+}
