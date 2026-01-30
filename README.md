@@ -26,3 +26,7 @@ En GitHub:
 - Folder: `/ (root)`
 
 Luego acceder desde la URL de Pages del repositorio.
+
+## Styles
+This project uses SCSS (SASS) with a modular architecture.
+Styles are compiled into `css/main.css` for GitHub Pages compatibility.
